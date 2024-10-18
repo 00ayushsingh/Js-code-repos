@@ -33,6 +33,8 @@ let usermail;
 // boolean datatype is boolean number is number sting is string and symbol is symbol
 const id = symbol('123')
 const anotherid = symbol('123')
+consol.log(id)
+console.log(anotherid)
 console.log(id === anotherid) // false
 // const big_number = 4343785375487689576895n // it become bigint after using n at end its datatype is undefined
 
