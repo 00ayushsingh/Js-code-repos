@@ -3,7 +3,7 @@
 const tinderuser = {} // non singelton
 tinderuser.id = "123abc"
 tinderuser.name = "sammy"
-tinderuser.isloggedin = false
+tinderuser.isloggedin = false // console.log(tinderuse) - {id: '123abc', name:'sammy'...}
 const regularuser = {
     email: "some@gamil.com",
     fullname: {
@@ -20,7 +20,9 @@ console.log(regularuser.fullname.userfullname.firstname); //only hitesh the firs
 //optional chaining consider the fullname doesn't exist so we put a question mark fullname? protection deta hai jab api
 //se response ata hai or ye value hai to access it otherwise if else condition, complex thing
 
-// combining objects
-
+// combining objects in copy
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "c", 4: "d"}
+
+
+//de structuring objects
